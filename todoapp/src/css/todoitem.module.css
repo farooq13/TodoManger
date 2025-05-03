@@ -1,0 +1,39 @@
+
+.listItemContainer {
+  position: relative;
+  display: block;
+  background-color: #080808ea;
+  color: #fff;
+  width: auto;
+  height: auto;
+  min-width: 400px;
+  min-height: 36px;
+  padding: 4px 10px;
+  border: 1px solid #080808ea;
+  margin-bottom: 10px;
+}
+
+.listItem {
+  min-width: 200px;
+  min-height: 36px;
+
+}
+
+.deleteItem {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.deleteItem button {
+  width: 34px;
+  background-color: #fff;
+  color: #080808ea;
+  border: none;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.deleteItem button:hover {
+  cursor: pointer;
+}

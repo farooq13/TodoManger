@@ -1,0 +1,29 @@
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.formContentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formContentWrapper input {
+  margin-right: 4px;
+  width: 350px;
+  height: 36px;
+  padding: 4px 10px;
+  font-size: 16px;
+  outline-color: #080808ea;
+}
+
+.formContentWrapper button {
+  width: 50px;
+  background-color: #080808ea;
+  border: 1px solid #080808ea;
+  font-weight: bold;
+  color: #ffff;
+}
